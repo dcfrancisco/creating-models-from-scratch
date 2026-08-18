@@ -1,0 +1,27 @@
+# WP-XXX: <Title>
+
+- Status: Proposed
+- Purpose:
+- Learning outcomes:
+- Background concepts:
+- Relevant mathematics:
+- Scope:
+- Explicit exclusions:
+- Dependencies:
+- Related ADRs:
+- Design impact:
+- Expected files:
+- Implementation steps:
+- Tests:
+- Experiments:
+- Acceptance criteria:
+- Required evidence:
+- Process-documentation updates:
+- User-guide updates:
+- Operations-guide updates:
+- Developer-guide updates:
+- Risks:
+- Recovery/rollback approach:
+- Reflection questions:
+- Definition of done:
+- Completion record:
