@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments and env files
+.env
+.venv/
+venv/
+
+# Tool caches
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Data and artifacts
+artifacts/*
+!artifacts/README.md
+data/*.txt
+data/*.json
+data/*.bin
+checkpoints/
+logs/
+runs/
+*.log
+*.npz
+*.pt
+*.pth
+
+# Editors and OS
+.DS_Store
+.idea/
+.vscode/
+
+# Misc
+pip-wheel-metadata/

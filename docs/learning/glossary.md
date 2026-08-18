@@ -1,0 +1,22 @@
+# Glossary
+
+- **token**: the atomic unit the model sees; here it is initially a character.
+- **vocabulary**: the set of tokens with stable integer IDs.
+- **embedding**: a learned dense vector representation of a token.
+- **context window**: the number of previous tokens visible to the model.
+- **attention**: a mechanism for weighting information from earlier positions.
+- **causal masking**: preventing a token from attending to future positions.
+- **softmax**: a normalization that converts scores into probabilities summing to 1.
+- **cross-entropy loss**: the training objective for next-token prediction over a vocabulary.
+- **perplexity**: `exp(loss)`; a derived metric related to uncertainty.
+- **gradient descent**: parameter updates in the direction that reduces loss.
+- **backpropagation**: the procedure for computing gradients through the model.
+- **transformer block**: a stack of attention, feed-forward, normalization, and residual logic.
+- **decoder-only**: an autoregressive architecture that predicts the next token from the prefix.
+- **autoregressive**: generating one token at a time conditioned on previous tokens.
+- **bigram**: a model that predicts the next token using only the current token.
+- **character-level tokenizer**: a tokenizer that maps each character to a token ID.
+- **layer normalization**: feature normalization applied within a layer.
+- **residual connection**: adding a sublayer output back to its input.
+- **feed-forward network**: a position-wise nonlinear projection applied after attention.
+- **checkpoint**: saved model state plus metadata required for later loading or inspection.

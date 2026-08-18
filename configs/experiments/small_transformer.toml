@@ -1,0 +1,27 @@
+[data]
+dataset_path = "data/corpus.txt"
+tokenizer_type = "character"
+
+[model]
+context_length = 64
+embedding_dim = 64
+num_heads = 4
+num_layers = 2
+dropout = 0.1
+
+[training]
+random_seed = 42
+batch_size = 16
+learning_rate = 0.001
+training_steps = 1000
+eval_interval = 100
+eval_batches = 10
+checkpoint_interval = 250
+output_dir = "artifacts/experiments/small_transformer"
+numerical_backend = "torch"
+num_threads = 1
+
+[generation]
+temperature = 0.8
+top_k = 20
+generation_length = 200
