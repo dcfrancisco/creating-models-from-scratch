@@ -1,0 +1,26 @@
+[data]
+dataset_path = "tests/fixtures/tiny_corpus.txt"
+tokenizer_type = "character"
+
+[model]
+context_length = 8
+embedding_dim = 16
+num_heads = 2
+num_layers = 1
+
+[training]
+random_seed = 42
+batch_size = 4
+learning_rate = 0.01
+training_steps = 10
+eval_interval = 5
+eval_batches = 2
+checkpoint_interval = 10
+output_dir = "artifacts/smoke/bigram"
+numerical_backend = "numpy"
+num_threads = 1
+
+[generation]
+temperature = 1.0
+top_k = 0
+generation_length = 50
